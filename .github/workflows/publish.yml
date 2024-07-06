@@ -2,13 +2,10 @@ name: Build and publish Logseq graph
 
 on:
   push:
-    workflow_dispatch:
-
     branches:
       - main
     paths:
       - 'graph/**'
-      
 
 jobs:
   build:
