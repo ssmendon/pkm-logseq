@@ -23,7 +23,7 @@ jobs:
 
       - name: Add a .nojekyll file
         run: |
-          touch "${GITHUB_WORKSPACE}"/www/.nojekyll
+          touch "${GITHUB_WORKSPACE}"/_site/.nojekyll
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
